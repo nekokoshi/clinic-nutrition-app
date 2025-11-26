@@ -135,7 +135,7 @@ def generate_advice(name: str, age: int, sex: str, disease: str, result: dict, d
 def main():
     st.set_page_config(page_title="イノクリ栄養サポート（食事記録フィードバック）", layout="centered")
 
-    st.title("栄養サポートアプリ（食事内容の振り返り）")
+    st.title("イノクリ栄養サポートアプリ（食事内容の振り返り）")
     st.write("身長・体重・病気などから1日の目安を出し、そのうえで『実際に食べた内容』に対してAIがやさしくフィードバックします。")
     st.info("※このアプリは一般的な目安です。実際の診断・治療・個別指導は必ず主治医・管理栄養士の指示を優先してください。")
 
